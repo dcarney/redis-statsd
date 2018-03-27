@@ -18,6 +18,8 @@ args = parser.parse_args()
 GAUGES = {
     'blocked_clients': 'blocked_clients',
     'connected_clients': 'connected_clients',
+    'connected_slaves': 'connected_slaves',
+    'master_repl_offset': 'master_repl_offset',
     'instantaneous_ops_per_sec': 'instantaneous_ops_per_sec',
     'latest_fork_usec': 'latest_fork_usec',
     'mem_fragmentation_ratio': 'mem_fragmentation_ratio',
